@@ -14,7 +14,7 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord_bot():
-    TOKEN = 'MTAyMDg0NjM0OTc1NjkyNDAyNQ.GKrCNQ.2BIpQznT5JpUYOvrbX2baH-yr7LctQJO_1WpY8'
+    TOKEN = 'Enter Token Here'
     INTENTS = discord.Intents.all()
     client = discord.Client(intents=INTENTS)
 
